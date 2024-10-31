@@ -1,6 +1,9 @@
 import Budget from "@/components/Budget";
-import Image from "next/image";
 
 export default function Home() {
-  return <Budget />;
+  return (
+    <>
+      <Budget />
+    </>
+  );
 }
